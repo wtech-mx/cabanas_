@@ -2,6 +2,10 @@
     background-image: linear-gradient(#3a2026, #5b333d, #3a2026);
 }
 
+.bg-footer{
+     background-image: linear-gradient(#172026, #1f2a32, #172026);
+}
+
 .bg-portada{
     background-image: url('../img/portada.png');
 }
