@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!--ccs personalizado-->
+    <link rel="stylesheet" href="./css/generales.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/responsividad.css">
+    <link rel="stylesheet" href="./css/tabs.css">
+
+
+
+  </head>
+  <body>
+
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg bg_gradient">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" style="background:#ffffff">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarScroll">
+
+      <ul class="navbar-nav mr-auto navbar-nav-scroll" style="">
+
+        <li class="nav-item">
+          <a class="nav-link text-white title-gotham active" aria-current="page" href="#">RESERVAR AHORA |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white title-gotham" href="#">MOMENTOS GROOSSHOPPER |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white title-gotham ">CABAÑAS |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white title-gotham ">DESTINOS</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<!--navbar-->
+
+<!--tabs-->
+<section class="tabs">
+    <div class="row">
+        <div class="col-12">
+                <form action="">
+
+                    <div class="d-flex justify-content-center">
+                        <ul class="nav nav-pills p-4" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <i class="bi bi-person-plus"></i>
+                            </button>
+                          </li>
+
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                <i class="bi bi-calendar-check"></i>
+                            </button>
+                          </li>
+
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                <i class="bi bi-house-heart"></i>
+                            </button>
+                          </li>
+
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-check-tab" data-bs-toggle="pill" data-bs-target="#pills-check" type="button" role="tab" aria-controls="pills-check" aria-selected="false">
+                                <i class="bi bi-calendar-check"></i>
+                            </button>
+                          </li>
+
+                        </ul>
+                    </div>
+
+
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+                          <div class="row justify-content-center">
+                            <div class="col-12">
+                              <div class="descBoxCabinsNew">
+                                <p class="text-center">Define el <strong>número de huéspedes</strong> y te mostraremos la cabaña ideal para tu visita.<br>
+                                El hospedaje para niños y mascotas tiene un costo adicional por estancia sin importar el número de días.</p>
+                              </div><!-- end.descBoxCabinsNew -->
+                            </div><!-- end.col-* -->
+
+                            <div class="col-12 col-md-6 col-lg-5">
+                              <div class="inputHuesped">
+                                <h4 class="inputHuesped__title">Adultos</h4>
+                                <div class="inputHuesped__opt text-center">
+                                  <input type="radio" class="radioRes" name="adultos" id="adulto-1" value="1" >
+                                  <label for="adulto-1">1</label>
+                                  <input type="radio" class="radioRes" name="adultos" id="adulto-2" value="2" >
+                                  <label for="adulto-2">2</label>
+                                  <input type="radio" class="radioRes" name="adultos" id="adulto-3" value="3" checked>
+                                  <label for="adulto-3">3</label>
+                                  <input type="radio" class="radioRes" name="adultos" id="adulto-4" value="4" >
+                                  <label for="adulto-4">4</label>
+                                </div><!-- end.inputHuesped__opt -->
+                              </div><!-- end.inputHuesped -->
+
+                              <div class="inputHuesped">
+                                <h4 class="inputHuesped__title">Niños | Costo por estancia $500</h4>
+                                <div class="inputHuesped__opt text-center">
+                                  <input type="radio" class="radioRes" name="ninos" id="nino-0" value="0" checked>
+                                  <label for="nino-0">NO</label>
+                                  <input type="radio" class="radioRes" name="ninos" id="nino-1" value="1" >
+                                  <label for="nino-1">1</label>
+                                  <input type="radio" class="radioRes" name="ninos" id="nino-2" value="2" >
+                                  <label for="nino-2">2</label>
+                                  <input type="radio" class="radioRes" name="ninos" id="nino-3" value="3" >
+                                  <label for="nino-3">3</label>
+                                  <input type="radio" class="radioRes" name="ninos" id="nino-4" value="4" >
+                                  <label for="nino-4">4</label>
+                                </div><!-- end.inputHuesped__opt -->
+                              </div><!-- end.inputHuesped -->
+
+                              <div class="inputHuesped">
+                                <h4 class="inputHuesped__title">Mascotas | Costo por estancia $500</h4>
+                                <div class="inputHuesped__opt">
+                                  <div class="form-check form-switch">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                </div>
+                                </div><!-- end.inputHuesped__opt -->
+                              </div><!-- end.inputHuesped -->
+                            </div><!-- end.col-* -->
+                          </div><!-- end.row -->
+
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+                          <div class="row justify-content-center">
+                            <div class="col-12">
+                              <div class="descBoxCabinsNew">
+                                <p class="text-center">
+                                Selecciona tu fecha de llegada (check-in) y la de partida (check-out). <br>
+                                Si no encuentras disponibilidad, te recomendamos probar con otro destino.
+                                </p>
+                              </div><!-- end.descBoxCabinsNew -->
+                            </div><!-- end.col-* -->
+
+                            <div class="col-12 col-md-6 col-lg-5">
+
+
+                            </div><!-- end.col-* -->
+                          </div><!-- end.row -->
+
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-check" role="tabpanel" aria-labelledby="pills-check-tab" tabindex="0">
+
+                  </div>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+<!--tabs-->
+
+<!--section Footer-->
+<footer class="footer p-3 bg-footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <span class="text-white">POLITICAS DE PRIVACIDAD Y DATOS</span>
+      <div class="contetn_icons">
+        <i class="bi bi-facebook" style="font-size: 30px;color: #fff;"></i>
+        <i class="bi bi-instagram" style="font-size: 30px;color: #fff;margin-left: 1rem"></i>
+      </div>
+    </div>
+
+
+  </div>
+</footer>
+<!--section Footer-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  </body>
+</html>
