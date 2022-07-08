@@ -1,0 +1,159 @@
+.title_center_img{
+    top: 75%;
+    left: 20%;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .title_center_img{
+        left: 20%;
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .title_center_img{
+        left: 17%;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .tittle_portada{
+        font-size: 50px;
+    }
+
+    .carousel-caption{
+        top:130px;
+    }
+
+    .title_center_img{
+        top:65%;
+        left: 13%;
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .tittle_portada{
+        font-size: 40px;
+    }
+
+    .carousel-caption{
+        top:90px;
+    }
+
+    .btn-portada{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px;
+    }
+
+    .title_center_img{
+        top:65%;
+        left: 11%;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .tittle_portada{
+        font-size: 25px;
+    }
+
+    .carousel-caption{
+        top:60px;
+    }
+
+    .btn-portada{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .title_center_img{
+        top:65%;
+        left: 12%;
+        font-size: 15px;
+    }
+
+    .img_icon{
+        width: 43px;
+        margin-left: 0px;
+        padding: 0 0 0 10px;
+
+    }
+
+    .text-icons {
+        font-size: 16px;
+    }
+
+    .img_amenidades_col{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        left: 0px;
+    }
+
+    .text-faqs{
+        font-size: 15px;
+    }
+
+    .text-subtitulos{
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .tittle_portada{
+        font-size: 20px;
+    }
+
+    .carousel-caption{
+        top:50px;
+    }
+
+    .btn-portada{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 10px;
+    }
+
+    .title_center_img{
+        top:65%;
+        left: 9%;
+        font-size: 13px;
+    }
+
+    .img_icon{
+        width: 40px;
+        margin-left: 0px;
+        padding: 0 0 0 10px;
+
+    }
+
+    .text-icons{
+        font-size: 13px;
+        padding: 0 0 0 10px;
+    }
+
+    .text-faqs{
+        font-size: 13px;
+    }
+
+}
+
