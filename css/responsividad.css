@@ -135,7 +135,7 @@
 
     .title_center_img{
         top:65%;
-        left: 9%;
+        left: 3%;
         font-size: 13px;
     }
 
@@ -153,6 +153,10 @@
 
     .text-faqs{
         font-size: 13px;
+    }
+
+    .icons-footer{
+        font-size: 15px;
     }
 
 }
