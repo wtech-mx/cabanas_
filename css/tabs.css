@@ -130,3 +130,114 @@ input[type=checkbox], input[type=radio] {
 .nav-item{
     padding: 10px;
 }
+
+.container_tabs{
+    padding: 1.5rem!important;
+}
+
+.accInputList .card-header {
+    padding: 7px 5px 5px;
+    background-color: #818C70;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-radius: 0!important;
+}
+
+.accInputList .card-body, .accInputList .panel-body {
+    padding: 20px 10px;
+    font-size: calc(13px + 3 * ((100vw - 320px) / 880));
+}
+
+.extrasInp__box {
+    width: 100%;
+    height: auto;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #C4C4C4;
+    -webkit-box-align: start;
+    box-align: start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    -o-align-items: flex-start;
+    align-items: flex-start;
+    -ms-flex-align: start;
+}
+
+.extrasInp__icon {
+    width: 30px;
+    height: auto;
+    margin: 0 10px 0 0;
+    padding: 0;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: normal;
+    box-direction: normal;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-pack: center;
+    box-pack: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    box-align: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.extrasInp__desc {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0;
+}
+
+.extrasInp__desc .descExtrasInp {
+    margin: 0 0 5px;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+.extrasInp__desc .descExtrasInp .precio {
+    float: right;
+    color: #818C70;
+    font-family: "Oswald",sans-serif;
+    font-weight: 500;
+    font-size: calc(13px + 2 * ((100vw - 320px) / 880));
+}

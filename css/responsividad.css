@@ -159,5 +159,9 @@
         font-size: 15px;
     }
 
+    .container_tabs{
+        padding: 0.5rem!important;
+    }
+
 }
 
