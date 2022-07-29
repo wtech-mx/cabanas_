@@ -19,9 +19,9 @@
 }
 
 .radioRes:checked+label {
-    background-color: #EA7F26;
+    background-color: #3a2026;
     color: #ffffff;
-    border-color: #EA7F26;
+    border-color: #3a2026;
 }
 
 @media screen and (min-width: 1200px) {
@@ -82,8 +82,8 @@ input[type=checkbox], input[type=radio] {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background-color: #EA7F26;
-    border-color: #EA7F26;
+    background-image: linear-gradient(#3a2026, #5b333d, #3a2026);
+    border-color: #3a2026;
     position: relative;
     padding: 0;
     margin: 0;
@@ -106,7 +106,7 @@ input[type=checkbox], input[type=radio] {
 
 .nav-pills .nav-link{
     background-color: transparent;
-    border-color: #EA7F26;
+    border-color: #3a2026;
     position: relative;
     padding: 0;
     margin: 0;
