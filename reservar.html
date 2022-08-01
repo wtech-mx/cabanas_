@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./css/responsividad.css">
     <link rel="stylesheet" href="./css/tabs.css">
     <link rel="stylesheet" href="./css/cabanas.css">
+
+
+
   </head>
   <body>
 
@@ -88,7 +91,6 @@
                                 <i class="bi bi-calendar-check"></i>
                             </button>
                           </li>
-
                         </ul>
                     </div>
 
@@ -150,308 +152,212 @@
 
                   <div class="tab-pane fade" id="pills-pgps" role="tabpanel" aria-labelledby="pills-pgps-tab" tabindex="0">
 
-                  <section class="body current">
-            <div class="container">
-              <div class="row justify-content-center">
+                    <section class="body current">
 
-                <div class="col-12">
-                  <div class="descBoxCabinsNew">
-                    <p>Elige <strong>ciudades</strong> si quieres conocer la disponibilidad de todos nuestros destinos alrededor de una misma región<br> o elige <strong>destinos</strong> para ver las cabañas disponibles en un destino específico.<br><br>Si deseas ver las cabañas disponibles en todos nuestros destinos, haz clic en <strong>ver todos nuestros destinos disponibles</strong>.<br></p>
-                  </div>
-                </div>
-                <div class="col-12 col-md-10 col-lg-8 text-center">
-                  <div class="checkBoxCus">
-                    <input type="checkbox" class="CheckStyle" name="ubicacion-todas" id="todas" value="todas-0" >
-                    <label for="todas">ver todos nuestros destinos disponibles</label>
-                    <!-- <div class="checkBtnCustom">
-                      <input type="radio" name="ubicacion" id="todas" value="todas-0" >
-                      <label for="todas">Todas las ubicaciones</label>
-                    </div> -->
-                  </div>
-                </div>
-                <div class="col-12" id="formDataRes1" data-reservations="false">
-                  <div class="locTabs">
-                    <ul class="nav nav-tabs 2x nav-justified" id="ctLocTabs" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link active" id="ciudades-tab" data-toggle="tab" href="#ciudades" role="tab" aria-controls="ciudades" aria-selected="true">Ciudades</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="ubicaciones-tab" data-toggle="tab" href="#ubicaciones" role="tab" aria-controls="ubicaciones" aria-selected="false">Destinos</a>
-                      </li>
-                    </ul><!-- end.nav-tabs -->
-                    <div class="tab-content" id="contentLocacions">
-                      <div class="tab-pane fade show active" id="ciudades" role="tabpanel" aria-labelledby="ciudades-tab">
                         <div class="row justify-content-center">
-                                                  <div class="col-12 col-md-4">
-                            <div class="boxCabanaRes slideCabin">
-                              <div class="boxCabanaRes__img">
-                                <div id="cab-cdmx-1" data-slider class="sliderRes">
-                                  <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a07/523/thumb_342_410_310_0_0_crop.jpg" alt="CDMX">
-                                    </figure>
+
+                          <div class="col-12">
+                            <div class="descBoxCabinsNew">
+                              <p>Elige <strong>ciudades</strong>
+                                si quieres conocer la disponibilidad de todos nuestros destinos alrededor de una misma región<br> o elige <strong>destinos</strong>
+                                para ver las cabañas disponibles en un destino específico.<br><br>Si deseas ver las cabañas disponibles en todos nuestros destinos, haz clic en <strong>
+                                  ver todos nuestros destinos disponibles</strong>.
+                                <br>
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+                              <div class="checkBoxCus">
+                                <input type="checkbox" class="CheckStyle" name="ubicacion-todas" id="todas" value="todas-0" >
+                                <label for="todas">ver todos nuestros destinos disponibles</label>
+                              </div>
+
+                              <div class="col-12" id="formDataRes1" data-reservations="false">
+
+                                <div class="locTabs">
+
+                                  <ul class="nav nav-tabs 2x nav-justified" id="ctLocTabs" role="tablist">
+
+                                    <li class="nav-item">
+                                      <button class="nav-link active" id="ciudades-tab" data-bs-toggle="tab" data-bs-target="#ciudades-tab-pane" type="button" role="tab" aria-controls="ciudades-tab-pane" aria-selected="true">Ciudades</button>
+                                    </li>
+
+                                    <li class="nav-item">
+                                      <button class="nav-link" id="ubicaciones-tab" data-bs-toggle="tab" data-bs-target="#ubicaciones-tab-pane" type="button" role="tab" aria-controls="ubicaciones-tab-pane" aria-selected="false">Destinos</button>
+                                    </li>
+                                  </ul>
+
+                                  <div class="tab-content" id="contentLocacions">
+
+                                    <div class="tab-pane fade show active" id="ciudades-tab-pane" role="tabpanel" aria-labelledby="ciudades-tab" tabindex="0">
+
+                                    <!--ciudades-->
+                                      <div class="row">
+                                        <div class="col-12 " style="max-width: 1000px; margin:auto;">
+                                          <div class="row">
+
+                                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 p-4" style="margin-right: 2rem;">
+                                              <div class="card" style="width: 18rem;">
+
+                                                <div class="content-icons-cards" style="position: absolute;background-color: #ffffff;top: 10px;left: 10px;z-index: 1;padding: 3px 10px;border-radius: 5px;">
+                                                  <i class="bi bi-house"></i> 5
+                                                  <i class="bi bi-people-fill"></i>  2
+                                                </div>
+
+                                                <div class="content-detail-cards" style="position: absolute;color: #ffffff;top: 10px;right: 10px;z-index: 1;padding: 3px 10px;border-radius: 5px;font-weight: bold;">
+                                                  <p style="font-size: 13px;text-align: end;">ESTANCIA DE 7 NOCHES</p>
+                                                  <p style="font-size: 13px;text-align: end;">$18,000s</p>
+                                                </div>
+
+                                                <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-bs-ride="carousel">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                      <img src="./img/cabanas/1.jpeg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./img/cabanas/2.jpeg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./img/cabanas/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                                <div class="card-body">
+                                                  <h5 class="card-title text-center">Card title</h5>
+                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  <a href="#" class="btn btn-primary">Selecionar</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                          </div>
+                                        </div>
+                                      </div>
+                                    <!--ciudades-->
+
+                                    </div>
+
+                                    <div class="tab-pane fade" id="ubicaciones-tab-pane" role="tabpanel" aria-labelledby="ubicaciones-tab" tabindex="0">
+
+                                     <!--Destinos-->
+                                      <div class="row">
+                                        <div class="col-12 " style="max-width: 1000px; margin:auto;">
+                                          <div class="row">
+
+                                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 p-4" style="margin-right: 2rem;">
+                                              <div class="card" style="width: 18rem;">
+
+                                                <div class="content-icons-cards" style="position: absolute;background-color: #ffffff;top: 10px;left: 10px;z-index: 1;padding: 3px 10px;border-radius: 5px;">
+                                                  <i class="bi bi-house"></i> 5
+                                                  <i class="bi bi-people-fill"></i>  2
+                                                </div>
+
+                                                <div class="content-detail-cards" style="position: absolute;color: #ffffff;top: 10px;right: 10px;z-index: 1;padding: 3px 10px;border-radius: 5px;font-weight: bold;">
+                                                  <p style="font-size: 13px;text-align: end;">ESTANCIA DE 7 NOCHES</p>
+                                                  <p style="font-size: 13px;text-align: end;">$18,000s</p>
+                                                </div>
+
+                                                <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-bs-ride="carousel">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                      <img src="./img/cabanas/1.jpeg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./img/cabanas/2.jpeg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./img/cabanas/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                                <div class="card-body">
+                                                  <h5 class="card-title text-center">Card title</h5>
+                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  <a href="#" class="btn btn-primary">Selecionar</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 p-4" style="margin-right: 2rem;">
+                                              <div class="card" style="width: 18rem;">
+
+                                                <div class="content-icons-cards" style="position: absolute;background-color: #ffffff;top: 10px;left: 10px;z-index: 1;padding: 3px 10px;border-radius: 5px;">
+                                                  <i class="bi bi-house"></i> 5
+                                                  <i class="bi bi-people-fill"></i>  2
+                                                </div>
+
+                                                <div class="content-detail-cards" style="position: absolute;color: #ffffff;top: 10px;right: 10px;z-index: 1;padding: 3px 10px;border-radius: 5px;font-weight: bold;">
+                                                  <p style="font-size: 13px;text-align: end;">ESTANCIA DE 7 NOCHES</p>
+                                                  <p style="font-size: 13px;text-align: end;">$18,000s</p>
+                                                </div>
+
+                                                <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-bs-ride="carousel">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                      <img src="./img/cabanas/1.jpeg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./img/cabanas/2.jpeg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./img/cabanas/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                                <div class="card-body">
+                                                  <h5 class="card-title text-center">Card title</h5>
+                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  <a href="#" class="btn btn-primary">Selecionar</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                          </div>
+                                        </div>
+                                      </div>
+                                    <!--Destinos-->
+
+                                    </div>
+
                                   </div>
+
                                 </div>
-                                <a class="btnSlideRes bLeftP" href="#" id="prevSlideRes-cab-cdmx-1"></a>
-                                <a class="btnSlideRes nRightP" href="#" id="nextSlideRes-cab-cdmx-1"></a>
-                                <h5 class="boxCabanaRes__titleCab">CDMX</h5>
-                              </div>
 
-                                                            <input type="radio" data-check-btn class="boxCabanaRes__input" name="ubicacion" id="cdmx"
-                                value="ciudad-1" checked>
-                              <label for="cdmx">Seleccionar</label>
-                                                            <div class="boxCabanaRes__desc">
-                                <!--<h2>x horas desde *</h2>-->
-                                <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In soluta dignissimos impedit</p>-->
                               </div>
-                            </div>
-                          </div><!-- end.col-* -->
-                                                </div><!-- end.row -->
-                      </div><!-- end.tab-pane -->
-                      <div class="tab-pane fade" id="ubicaciones" role="tabpanel" aria-labelledby="ubicaciones-tab">
-                        <div class="row justify-content-center">
-                                                  <div class="col-12 col-md-4">
-                            <div class="boxCabanaRes slideCabin">
-                              <div class="boxCabanaRes__img">
-                                <div id="cab-valle-de-bravo-1" data-slider class="sliderRes">
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62a/2bf/fc3/thumb_282_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/60f/636/2e5/thumb_140_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/60f/636/2f1/thumb_141_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47f/500/thumb_240_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/480/575/thumb_246_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47f/60a/thumb_241_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/7f7/f3c/thumb_279_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/480/5ad/thumb_247_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47f/60c/thumb_242_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47f/db7/thumb_243_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47f/de1/thumb_244_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/7f7/b5d/thumb_278_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                                    </figure>
-                                  </div>
-                                                                  </div>
-                                <a class="btnSlideRes bLeftP" href="#" id="prevSlideRes-cab-valle-de-bravo-1"></a>
-                                <a class="btnSlideRes nRightP" href="#" id="nextSlideRes-cab-valle-de-bravo-1"></a>
-                                <h5 class="boxCabanaRes__titleCab">Valle de bravo</h5>
-                              </div>
+                          </div>
 
-                                                            <input type="radio" data-check-btn class="boxCabanaRes__input" name="ubicacion" id="valle-de-bravo"
-                                value="ubicacion-1" >
-                              <label for="valle-de-bravo">Seleccionar</label>
-                                                            <div class="boxCabanaRes__desc">
-                                <!--<h2>x horas desde *</h2>-->
-                                <p>Disfruta de nuestras cabañas originales ubicadas en medio del bosque en Valle de Bravo. Cuenta con rio.</p>
-                              </div>
-                            </div>
-                          </div><!-- end.col-* -->
-                                                  <div class="col-12 col-md-4">
-                            <div class="boxCabanaRes slideCabin">
-                              <div class="boxCabanaRes__img">
-                                <div id="cab-malinalco-2" data-slider class="sliderRes">
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/614/392/2c7/thumb_170_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47e/e5a/thumb_235_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47e/e79/thumb_236_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47e/ec1/thumb_237_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/621/47e/f1e/thumb_238_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/7f1/2dd/thumb_275_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/7f1/3f7/thumb_276_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/7f1/8c5/thumb_277_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a00/ac3/thumb_332_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a00/b82/thumb_333_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a00/bd0/thumb_334_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a00/d49/thumb_335_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a00/dfd/thumb_336_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a00/f5a/thumb_337_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a00/f87/thumb_338_410_310_0_0_crop.jpg" alt="Malinalco">
-                                    </figure>
-                                  </div>
-                                                                  </div>
-                                <a class="btnSlideRes bLeftP" href="#" id="prevSlideRes-cab-malinalco-2"></a>
-                                <a class="btnSlideRes nRightP" href="#" id="nextSlideRes-cab-malinalco-2"></a>
-                                <h5 class="boxCabanaRes__titleCab">Malinalco</h5>
-                              </div>
+                        </div>
 
-                                                            <input type="radio" data-check-btn class="boxCabanaRes__input" name="ubicacion" id="malinalco"
-                                value="ubicacion-2" >
-                              <label for="malinalco">Seleccionar</label>
-                                                            <div class="boxCabanaRes__desc">
-                                <!--<h2>x horas desde *</h2>-->
-                                <p>Un Wander único diseñado por Michel Rojkind, donde cada cabaña tiene acceso y vista privada al rio.</p>
-                              </div>
-                            </div>
-                          </div><!-- end.col-* -->
-                                                  <div class="col-12 col-md-4">
-                            <div class="boxCabanaRes slideCabin">
-                              <div class="boxCabanaRes__img">
-                                <div id="cab-canada-3" data-slider class="sliderRes">
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/691/037/thumb_272_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/691/1f5/thumb_273_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/691/272/thumb_274_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/7f9/8d5/thumb_280_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/629/7fa/b83/thumb_281_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a01/e89/thumb_339_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a01/f1c/thumb_340_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                    <div>
-                                    <figure class="boxCabanaRes__fig">
-                                      <img src="https://wandercabins.mx/storage/app/uploads/public/62d/a02/144/thumb_341_410_310_0_0_crop.jpg" alt="La Cañada">
-                                    </figure>
-                                  </div>
-                                                                  </div>
-                                <a class="btnSlideRes bLeftP" href="#" id="prevSlideRes-cab-canada-3"></a>
-                                <a class="btnSlideRes nRightP" href="#" id="nextSlideRes-cab-canada-3"></a>
-                                <h5 class="boxCabanaRes__titleCab">La Cañada</h5>
-                              </div>
-
-                                                            <input type="radio" data-check-btn class="boxCabanaRes__input" name="ubicacion" id="canada"
-                                value="ubicacion-3" >
-                              <label for="canada">Seleccionar</label>
-                                                            <div class="boxCabanaRes__desc">
-                                <!--<h2>x horas desde *</h2>-->
-                                <p>Nuestro Wander mas extenso y privado. Disfruta de una cabaña completamente aislada en medio de un gran bosque de pinos. A tan solo 30min de Santa Fe.</p>
-                              </div>
-                            </div>
-                          </div><!-- end.col-* -->
-                                                </div><!-- end.row -->
-                      </div><!-- end.tab-pane -->
-                    </div><!-- end.tab-content -->
-                  </div><!-- end.locTabs -->
-
-                </div><!-- end.col-* -->
-
-              </div><!-- end.row -->
-            </div><!-- end.container -->
-          </section><!-- end.selectLocation -->
+                    </section>
 
                   </div>
 
@@ -473,17 +379,21 @@
                             </div>
 
                             <div class="boxGridReservar">
+
                               <div class="boxGridReservar__item boxGridReservar__item--input">
                                 <label for="start-input">Check-in</label>
                                 <input id="start-input" name="start-input" type="text" readonly placeholder="Check-In">
                               </div>
+
                               <div class="boxGridReservar__item boxGridReservar__item--input">
                                 <label for="end-input">Check-out</label>
                                 <input id="end-input" name="end-input" type="text" readonly placeholder="Check-Out">
                               </div>
+
                               <div class="boxGridReservar__item boxGridReservar__item--btn">
                                 <button id="limpiar" type="button">Borrar Fechas</button>
                               </div>
+
                             </div>
 
                             <input type="hidden" id="rangeDate" name="rangeDate">
@@ -492,8 +402,13 @@
                             <small><blockquote>** Se muestra el costo de la cabaña más ecónomica por día.</blockuote></small>
 
                           </div>
+
                         </div>
+
+                        <div id='calendar'></div>
+
                       </div>
+
                     </section>
 
 
@@ -508,8 +423,8 @@
                                 <p class="text-center">
                                   SELECCIONA UNA CABAÑA
                                 </p>
-                              </div><!-- end.descBoxCabinsNew -->
-                            </div><!-- end.col-* -->
+                              </div>
+                            </div>
 
                             <div class="row">
                               <div class="col-12 " style="max-width: 1000px; margin:auto;">
@@ -648,7 +563,7 @@
                               </div>
                             </div>
 
-                          </div><!-- end.row -->
+                          </div>
 
                   </div>
 
@@ -722,230 +637,208 @@
                   </div>
 
                   <div class="tab-pane fade" id="pills-check" role="tabpanel" aria-labelledby="pills-check-tab" tabindex="0">
-                                   <section>
-          <div class="detallecompra">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-12">
-                  <div class="descBoxCabinsNew">
-                    <p>Estás por completar tu reservación, <strong>confirma</strong> las condiciones de tu estancia,<br>
-                    conoce las <strong>políticas y reglas</strong> y dejanos conocer al resto de los huéspedes.</p>
-                  </div><!-- end.descBoxCabinsNew -->
-                </div><!-- end.col-* -->
-                <div class="col-12 col-md-8 col-lg-6">
 
-                  <div class="detailBox">
-                    <div class="text-center p-5">
+                    <section>
+                      <div class="detallecompra">
+                        <div class="container">
+                          <div class="row justify-content-center">
+                            <div class="col-12">
+                              <div class="descBoxCabinsNew">
+                                <p>Estás por completar tu reservación, <strong>confirma</strong> las condiciones de tu estancia,<br>
+                                conoce las <strong>políticas y reglas</strong> y dejanos conocer al resto de los huéspedes.</p>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-8 col-lg-6">
 
-                     <h3>5 noches en <br/>Valle de bravo</h3>
+                              <div class="detailBox">
+                                <div class="text-center p-5">
 
-                    </div>
-                    <p align="center"><b>22/11/2022 al 27/11/2022</b></p>
-                    <div class="detBox">
+                                 <h3>5 noches en <br/>Valle de bravo</h3>
 
-                      <div class="detBox__item">
-                        <figure class="figBoxDet">
-                          <img src="https://wandercabins.mx/storage/app/uploads/public/60f/636/373/thumb_142_410_310_0_0_crop.jpg" alt="Valle de bravo">
-                        </figure><!-- end.figBoxDet -->
-                      </div><!-- end.detBox__item -->
-                      <div class="detBox__item">
-                        <figure class="figBoxDet">
-                          <img src="https://wandercabins.mx/storage/app/uploads/public/60f/625/8b6/thumb_84_410_310_0_0_crop.jpg" alt="Ameyali">
-                        </figure><!-- end.figBoxDet -->
-                      </div><!-- end.detBox__item -->
-                      <div class="detBox__list">
-                        <ul>
-                          <li><img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/wander_icon.svg" alt=""> Cabaña Ameyali</li>
-                          <li><img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/bedroom_icon.svg" alt=""> 2 Cama(s)</li>
-                          <li><img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/user_icon_black.svg" alt=""> 2 Adulto(s)</li>
-
-                        </ul>
-                      </div><!-- end.detBox__list -->
-
-                    </div><!-- end.detBox -->
-                    <h2 class="precioFinal">TOTAL $15,950 MXN</h2>
-                  </div><!-- end.detailBox -->
-
-                  <div class="contAccordionBox">
-                    <div class="accordion accInputList" id="accInputsRes" aria-multiselectable="true">
-                      <div class="card">
-                        <div class="card-header" id="title-list-1">
-                          <h2 class="mb-0">
-                                                      Desglose de pago
-                                                    </h2>
-                        </div><!-- end.card-header -->
-                        <div id="accInpt-1" class="panel-collapse collapse show" aria-labelledby="title-list-1" data-parent="#accInputsRes">
-                          <div class="card-body extrasInp">
-
-                            <div class="extrasInp__box">
-                              <div class="extrasInp__icon">
-                                <img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/wander_icon.svg" alt="Wander">
-                              </div><!-- end.extrasCt__icon -->
-                              <div class="extrasInp__desc">
-                                <h3>Cabaña Ameyali - 2 Adulto(s)</h3>
-
-                                                                <div class="descExtrasInp">
-                                  <p>Noche 1 - 22/11/2022</p>
-                                  <span class="precio">$1,750</span>
                                 </div>
-                                                                <div class="descExtrasInp">
-                                  <p>Noche 2 - 23/11/2022</p>
-                                  <span class="precio">$1,750</span>
+                                <p align="center"><b>22/11/2022 al 27/11/2022</b></p>
+                                <div class="detBox">
+
+                                  <div class="detBox__item">
+                                    <figure class="figBoxDet">
+                                      <img src="https://wandercabins.mx/storage/app/uploads/public/60f/636/373/thumb_142_410_310_0_0_crop.jpg" alt="Valle de bravo">
+                                    </figure>
+                                  </div>
+
+                                  <div class="detBox__item">
+                                    <figure class="figBoxDet">
+                                      <img src="https://wandercabins.mx/storage/app/uploads/public/60f/625/8b6/thumb_84_410_310_0_0_crop.jpg" alt="Ameyali">
+                                    </figure>
+                                  </div>
+
+                                  <div class="detBox__list">
+                                    <ul>
+                                      <li><img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/wander_icon.svg" alt=""> Cabaña Ameyali</li>
+                                      <li><img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/bedroom_icon.svg" alt=""> 2 Cama(s)</li>
+                                      <li><img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/user_icon_black.svg" alt=""> 2 Adulto(s)</li>
+                                    </ul>
+                                  </div>
+
                                 </div>
-                                                                <div class="descExtrasInp">
-                                  <p>Noche 3 - 24/11/2022</p>
-                                  <span class="precio">$1,750</span>
-                                </div>
-                                                                <div class="descExtrasInp">
-                                  <p>Noche 4 - 25/11/2022</p>
-                                  <span class="precio">$3,500</span>
-                                </div>
-                                                                <div class="descExtrasInp">
-                                  <p>Noche 5 - 26/11/2022</p>
-                                  <span class="precio">$5,000</span>
-                                </div>
-                                                                <!--<div class="descExtrasInp">
-                                  <p>Martes 15 de Junio</p>
-                                  <span class="precio">$33</span>
-                                </div>
-                                <div class="descExtrasInp">
-                                  <p>Miercoles 16 de Junio</p>
-                                  <span class="precio">$33</span>
-                                </div>-->
-                              </div><!-- end.extrasInp__desc -->
-                            </div><!-- end.extrasInp__box -->
+                                <h2 class="precioFinal">TOTAL $15,950 MXN</h2>
+                              </div>
 
+                              <!--collaplse-->
 
+                              <div class="d-flex justify-content-center">
 
+                                <div class="accordion" id="accordionExample" style="width: 500px;">
 
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header " id="headingOne">
+                                      <button class="accordion-button bg_gradient d-block  text-white text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                       DESGLOSE DE PAGO
+                                      </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse text-amenidades" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        <div class="card-body extrasInp">
 
-                            <div class="extrasInp__box">
-                              <div class="extrasInp__icon">
-                                <!--<img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/percent.svg" alt="Impuesto">-->
-                              </div><!-- end.extrasCt__icon -->
-                              <div class="extrasInp__desc">
-                                <h3>Impuestos</h3>
-                                <div class="descExtrasInp">
-                                  <p>IVA. 16%</p>
-                                  <span class="precio">$2,200</span>
-                                </div>
-                              </div><!-- end.extrasInp__desc -->
-                            </div><!-- end.extrasInp__box -->
+                                          <div class="extrasInp__box">
+                                            <div class="extrasInp__icon">
+                                              <img src="https://wandercabins.mx/themes/wander/assets/img/imgPrueba/wander_icon.svg" alt="Wander">
+                                            </div>
+                                            <div class="extrasInp__desc">
+                                              <h3>Cabaña Ameyali - 2 Adulto(s)</h3>
 
-                            <h2 class="precioFinal">TOTAL $15,950 MXN</h2><!-- end.precio -->
-                            <!--<div class="ctBtnAcc">
-                                                          <a class="btn BtnNext collapsed" href="#" data-open-modal="">Siguiente</a>
-                                                        </div> -->
-                          </div><!-- end.card-body -->
-                        </div><!-- end.collapse -->
-                      </div><!-- end.card -->
-                      <div class="card">
-                        <div class="card-header" id="title-list-2">
-                          <h2 class="mb-0">
-                                                      POLÍTICAS Y REGLAS
-                                                    </h2>
-                        </div>
-                        <div id="accInpt-2" class="panel-collapse collapse" aria-labelledby="title-list-2" data-parent="#accInputsRes">
-                          <div class="card-body">
-                            <div class="contPolicy">
+                                              <div class="descExtrasInp">
+                                                <p>Noche 1 - 22/11/2022</p>
+                                                <span class="precio">$1,750</span>
+                                              </div>
 
-                              <h5 class="contPolicy__title">Política de cancelación</h5>
-                              <div class="contPolicy_desc">
-                                <p>No hay reembolsos, sin embargo puede cambiar la fecha de su reservación hasta 5 días antes para otra ocasión que pueda venir, siempre y cuando
-                                  contemos con disponibilidad.</p>
-                              </div><!-- end.contPolicy_desc -->
-                              <h5 class="contPolicy__title">Reglas</h5>
-                              <div class="contPolicy_desc">
-                                <p>Los términos y condiciones</p>
-                                <ul>
-                                  <li>
-                                    <p><i class="fa fa-times"></i> Se permite fumar</p> <span>No</span>
-                                  </li>
-                                  <li>
-                                    <p><i class="fa fa-check"></i> Mascotas permitidas</p> <span>Si</span>
-                                  </li>
-                                </ul><br>
-                                <p><b>Te recomendamos viajar en un auto que te permita desplazarte en terracería ya que el acceso a todas nuestras cabañas será por caminos de tierra.</b></p>
-                              </div><!-- end.contPolicy_desc -->
-                              <fieldset class="form-group">
-                                <input type="checkbox" class="CheckStyle" id="resAcepto" name="resAcepto" required>
-                                <label style="text-align: center;"for="resAcepto">He leído y acepto todas las condiciones y políticas de alquiler.<br>
-                                    <a href="https://wandercabins.mx/aviso-de-privacidad"> Manifiesto mi conformidad con el aviso de privacidad</a>
-                                </label>
-                              </fieldset>
+                                            </div>
+                                          </div>
 
-                            </div><!-- end.contPolicy -->
-                            <!-- <div class="ctBtnAcc">
-                              <a data-toggle="collapse" data-parent="#accInputsRes" href="#accInpt-1" class="btn BtnBack">Atrás</a>
-                                                        </div>end.ctBtnAcc -->
-                          </div><!-- end.card-body -->
-                        </div><!-- end.collapse -->
-                      </div><!-- end.card -->
-                      <div class="card">
-                        <div class="card-header" id="title-list-3">
-                          <h2 class="mb-0">
-                                                      HUÉSPEDES
-                                                    </h2>
-                        </div>
-                        <div id="accInpt-3" class="panel-collapse collapse" aria-labelledby="title-list-3" data-parent="#accInputsRes">
-                          <div class="card-body huesCont">
-                            <div class="huesCont__desc">
-                              <p>Agrega los datos de todos los huéspedes.</p>
-                            </div><!-- huesCont__desc -->
-
-                                                                                                <div class="huesCont__box" data-frm-inp="huesped-1">
-                                      <h4>Adulto 1 (titular)</h4>
-                                      <div class="form-group row">
-                                        <label for="nombre-1" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Nombre completo</label>
-                                        <div class="col-8 col-sm-9 col-md-8 col-xl-9">
-                                          <input type="text" class="form-control nameResInp" id="nombre_1" name="nombre_1" value="" required>
-                                        </div>
-                                      </div>
-                                      <div class="form-group row">
-                                        <label for="dd-1" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Fecha de nacimiento</label>
-                                        <div class="col-8 col-sm-9 col-md-8 col-xl-9">
-                                                                                  <input type="text" class="form-control" name="dd_1" id="dd_1" maxlength="2" style="width:30%;float:left;" value="" required>
-                                          <input type="text" class="form-control" name="mm_1" id="mm_1" maxlength="2" style="width:30%;float:left;" value="" required>
-                                          <input type="text" class="form-control" name="aa_1" id="aa_1" maxlength="4" style="width:40%;float:left;" value="" required>
-                                                                                </div>
-                                      </div>
-                                      <div class="form-group row">
-                                        <label for="edad-1" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Teléfono</label>
-                                        <div class="col-8 col-sm-9 col-md-8 col-xl-9">
-                                          <input type="text" class="form-control" name="telefono_1" id="telefono_1" maxlength="10" value="" required style="width:50%">
+                                          <div class="extrasInp__box">
+                                            <div class="extrasInp__desc">
+                                              <h3>Impuestos</h3>
+                                              <div class="descExtrasInp">
+                                                <p>IVA. 16%</p>
+                                                <span class="precio">$2,200</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <h2 class="precioFinal">TOTAL $15,950 MXN</h2>
                                         </div>
                                       </div>
                                     </div>
-                                                                                                                                <div class="huesCont__box" data-frm-inp="huesped-2">
-                                      <h4>Adulto 2</h4>
-                                      <div class="form-group row">
-                                        <label for="nombre-2" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Nombre completo</label>
-                                        <div class="col-8 col-sm-9 col-md-8 col-xl-9">
-                                          <input type="text" class="form-control nameResInp" id="nombre-2" name="nombres[]">
-                                        </div>
+                                  </div>
+
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button bg_gradient d-block text-white text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                       POLÍTICAS Y REGLAS
+                                      </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                          <div class="contPolicy">
+
+                                            <h5 class="contPolicy__title">Política de cancelación</h5>
+                                            <div class="contPolicy_desc">
+                                              <p>No hay reembolsos, sin embargo puede cambiar la fecha de su reservación hasta 5 días antes para otra ocasión que pueda venir, siempre y cuando
+                                                contemos con disponibilidad.</p>
+                                            </div>
+
+                                            <h5 class="contPolicy__title">Reglas</h5>
+                                            <div class="contPolicy_desc">
+                                              <p>Los términos y condiciones</p>
+                                              <ul>
+                                                <li>
+                                                  <p> Se permite fumar</p> <span>No</span>
+                                                </li>
+                                                <li>
+                                                  <p> Mascotas permitidas</p> <span>Si</span>
+                                                </li>
+                                              </ul><br>
+                                              <p><b>Te recomendamos viajar en un auto que te permita desplazarte en terracería ya que el acceso a todas nuestras cabañas será por caminos de tierra.</b></p>
+                                            </div>
+
+                                            <fieldset class="form-group">
+                                              <input type="checkbox" class="CheckStyle" id="resAcepto" name="resAcepto" required>
+                                              <label style="text-align: center;"for="resAcepto">He leído y acepto todas las condiciones y políticas de alquiler.<br>
+                                                  <a href="#"> Manifiesto mi conformidad con el aviso de privacidad</a>
+                                              </label>
+                                            </fieldset>
+
+                                          </div>
                                       </div>
-                                      <div class="form-group row">
-                                        <label for="edad-2" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Edad</label>
-                                        <div class="col-8 col-sm-9 col-md-8 col-xl-9">
-                                          <input type="text" class="form-control" name="edades[]" maxlength="2" id="edad-2" style="width:30%;" required>
-                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                      <button class="accordion-button bg_gradient d-block text-white text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        HUÉSPEDES
+                                      </button>
+                                    </h2>
+
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                          <div class="huesCont__box" data-frm-inp="huesped-1">
+                                            <h4>Adulto 1 (titular)</h4>
+                                            <div class="form-group row">
+                                                      <label for="nombre-1" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Nombre completo</label>
+                                                      <div class="col-8 col-sm-9 col-md-8 col-xl-9">
+                                                        <input type="text" class="form-control nameResInp" id="nombre_1" name="nombre_1" value="" required>
+                                                      </div>
+                                                    </div>
+
+                                            <div class="form-group row">
+                                                      <label for="dd-1" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Fecha de nacimiento</label>
+                                                      <div class="col-8 col-sm-9 col-md-8 col-xl-9">
+                                                        <input type="text" class="form-control" name="dd_1" id="dd_1" maxlength="2" style="width:30%;float:left;" value="" required>
+                                                        <input type="text" class="form-control" name="mm_1" id="mm_1" maxlength="2" style="width:30%;float:left;" value="" required>
+                                                        <input type="text" class="form-control" name="aa_1" id="aa_1" maxlength="4" style="width:40%;float:left;" value="" required>
+                                                      </div>
+                                                    </div>
+
+                                            <div class="form-group row">
+                                                      <label for="edad-1" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Teléfono</label>
+                                                      <div class="col-8 col-sm-9 col-md-8 col-xl-9">
+                                                        <input type="text" class="form-control" name="telefono_1" id="telefono_1" maxlength="10" value="" required style="width:50%">
+                                                      </div>
+                                                    </div>
+                                           </div>
+
+                                           <div class="huesCont__box" data-frm-inp="huesped-2">
+                                             <h4>Adulto 2</h4>
+
+                                             <div class="form-group row">
+                                                      <label for="nombre-2" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Nombre completo</label>
+                                                      <div class="col-8 col-sm-9 col-md-8 col-xl-9">
+                                                        <input type="text" class="form-control nameResInp" id="nombre-2" name="nombres[]">
+                                                      </div>
+                                                    </div>
+
+                                             <div class="form-group row">
+                                                      <label for="edad-2" class="col-4 col-sm-3 col-md-4 col-xl-3 col-form-label">Edad</label>
+                                                      <div class="col-8 col-sm-9 col-md-8 col-xl-9">
+                                                        <input type="text" class="form-control" name="edades[]" maxlength="2" id="edad-2" style="width:30%;" required>
+                                                      </div>
+                                                    </div>
+
+                                           </div>
                                       </div>
                                     </div>
 
+                                  </div>
+                                </div>
 
-                            <!--<div class="ctBtnAcc">
-                              <a data-toggle="collapse" data-parent="#accInputsRes" href="#accInpt-2" class="btn BtnBack">Atrás</a>
-                            </div> -->
-                          </div><!-- end.crad-body -->
-                        </div><!-- end.collapse -->
-                      </div><!-- end.card -->
-                    </div><!-- end.accInputList -->
-                  </div><!-- end.contAccordionBox -->
-                </div><!-- end.col-* -->
-              </div><!-- end.row -->
-            </div><!-- end.container -->
-          </div><!-- end.detallecompra -->
-        </section>
+                              </div>
+                              <!--collaplse-->
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
                   </div>
 
                 </div>
@@ -958,8 +851,6 @@
 <!--tabs-->
 
 <!--section Footer-->
-<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark">
-
   <footer class="footer p-3 bg-footer" style="width: 100%;">
     <div class="container">
       <div class="d-flex justify-content-between">
@@ -971,13 +862,36 @@
       </div>
     </div>
   </footer>
-
-</nav>
 <!--section Footer-->
 
-
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.2/main.min.js'></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      timeZone: 'UTC',
+      themeSystem: 'bootstrap5',
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+      },
+      weekNumbers: true,
+      dayMaxEvents: true, // allow "more" link when too many events
+      events: 'https://fullcalendar.io/api/demo-feeds/events.json'
+    });
+
+    calendar.render();
+  });
+
+</script>
+
   </body>
 </html>
